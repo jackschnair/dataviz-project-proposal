@@ -18,7 +18,9 @@ The following tasks and questions will drive the visualization and interaction d
 
 ![iterated_sketch](https://github.com/user-attachments/assets/2371d0e4-63a7-473f-a044-734b51fe4751)
 
-The sketch on the left is a bar chart that flexibly compares a number of features against average board game rating. The idea behind this visualization is that the msot relevant information is a board game's ranking, so users will likely want to know how each attribute compares to the ranking. The checkboxes to the right of the bar chart will allow the user to select what attribute they want to visualize in relation to average rating. 
+The sketch on the left is a bar chart that flexibly compares a number of features against average board game rating. The idea behind this visualization is that the msot relevant information is a board game's ranking, so users will likely want to know how each attribute compares to the ranking. The checkboxes to the right of the bar chart will allow the user to select what attribute they want to visualize in relation to average rating. The sketch on the right is a clustered bar chart depicting the quantity of games with certain mechanics over the years. In practice I will likely split the years into decades to reduce clutter. The most popular board game mechanics will be color coded and displayed next to eachother to show quantity in each decade. My first iteration of the idea was a stacked bar chart, but I think this is more clear to viewers. 
+
+
 (describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
 
 
