@@ -9,44 +9,49 @@ The data I propose to visualize for my project is a collection of board games fr
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+Questions for game gategories per decade route: 
+
+ * How popular have different kinds of board games become over the years?
+ * Do certain kinds of board games keep gettign more popular or have fallen out of style? 
+ * Any outliers in a certain decade where a category was really popular?
+ * How might the trend continue into the 2020s?
+
+Questions for board game average rating vs average complexity route: 
+
+* Is there a correlation between rating and complexity of board games?
+* Are there other attributes of the dataset that have correlation with average rating (other than rank)?
+* How can I include more information in a scatterplot about complexity vs rating to make things more interesting?
 
 ## Sketches
 
 ![iterated_sketch](https://github.com/user-attachments/assets/2371d0e4-63a7-473f-a044-734b51fe4751)
 
-The sketch on the left is a bar chart that flexibly compares a number of features against average board game rating. The idea behind this visualization is that the msot relevant information is a board game's ranking, so users will likely want to know how each attribute compares to the ranking. The checkboxes to the right of the bar chart will allow the user to select what attribute they want to visualize in relation to average rating. The sketch on the right is a clustered bar chart depicting the quantity of games with certain mechanics over the years. In practice I will likely split the years into decades to reduce clutter. The most popular board game mechanics will be color coded and displayed next to eachother to show quantity in each decade. My first iteration of the idea was a stacked bar chart, but I think this is more clear to viewers. 
-
-
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+The sketch on the left is a bar chart that flexibly compares a number of features against average board game rating. The idea behind this visualization is that the msot relevant information is a board game's ranking, so users will likely want to know how each attribute compares to the ranking. The checkboxes to the right of the bar chart will allow the user to select what attribute they want to visualize in relation to average rating. The sketch on the right is a clustered bar chart depicting the quantity of games with certain mechanics over the years. In practice I will likely split the years into decades to reduce clutter. The most popular board game mechanics will be color coded and displayed next to eachother to show quantity in each decade. My first iteration of the idea was a stacked bar chart, but I think this is more clear to viewers. This second sketch relates to the question about how popular categories of board games have been over the years. The viewer can compare the bars for each category in each decade and come to their own conclusions. 
 
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
+Prototype for scatter plot of rank vs complexity: 
 
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
+<img width="959" height="535" alt="Scatter Plot Board Games" src="https://github.com/user-attachments/assets/ff1d86a4-c73a-4805-8f6e-01530559acfe" />
 
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
+Prototype for category quantity over the decades: 
 
-You can put images into here by pasting them into issues.
+<img width="953" height="535" alt="bar chart board games" src="https://github.com/user-attachments/assets/86edc9d6-582f-48da-82a8-9e86da9b624f" />
 
-You can make images into links like this:
-
-```
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-```
-
-
-Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
 
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+I feel like analyzing the relationship between average rating and other attributes such as complexity is a more interesting question to persue since it's a real life question that would be interesting to research. However, I don't think a simple scatterplot of that nature is an interesting visualization. I'd like to figure out how to make it more interesting. The bar chart comparing category popularity over the decades is a better visualization, but I don't think the data really tells us that much. I'm unsure of which to procede with or if I just want to ask a different question. 
 
 ## Milestones
 
-(for each week, estimate what would be accomplised)
+Week 5: Prototype designs
+
+Week 6: Finalize idea and improve prototype. 
+
+Week 7: Add interactive element to visualization. 
+
+...
+
+Week ?: Finish Project. 
