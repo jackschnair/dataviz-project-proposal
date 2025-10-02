@@ -1,5 +1,7 @@
 # Data Visualization Project
 
+Vizhub: https://vizhub.com/jackschnair/01eb7953287d4966920e5a4855cb0b2f
+
 ## Data
 
 The data I propose to visualize for my project is a collection of board games from the BoardGameGeek (BGG) website as of February 2021. BGG is the largest online collection of board game data which consists of data on more than 100,000 total games (ranked and unranked). The voluntary online community contributes to the site with reviews, ratings, images, videos, session reports and live discussion forums on the expanding database of board games. This data set contains all ranked games (~20,000) as of the date of collection from the BGG database. Unranked games are ignored as they have not been rated by enough BGG users (a game should receive at least 30 votes to be eligible for ranking).
@@ -40,6 +42,15 @@ Prototype for category quantity over the decades:
 
 <img width="953" height="535" alt="bar chart board games" src="https://github.com/user-attachments/assets/86edc9d6-582f-48da-82a8-9e86da9b624f" />
 
+## Week 6 
+
+I decided to go back to my scatterplot and add some more features to make it interesting. 
+I forked my scatterplot with axes viz and added checkboxes to filter based on board game domains and mechanics.
+Domains are essentially the type of game like strategy or family and mechanics are thigns like dice rolling or worker placement. 
+The user can check each doman or mechanic to toggle the display. Most games have multiple of each, so as one of their domians or mechanics are checked the point will stay. 
+The other feature I added was a color change for when you mouse over a domain or mechanic to make them more distinct for the viewer. 
+
+<img width="1292" height="635" alt="week 6 chart" src="https://github.com/user-attachments/assets/aef4e350-4d24-45ad-b716-38aa934a01fd" />
 
 ## Open Questions
 
