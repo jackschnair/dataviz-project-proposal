@@ -60,6 +60,7 @@ Now whatever you select stays black and everything else turns grey. The black po
 The other change I've made is adding tooltips to each point. 
 Now when you hover over a point it displays the name of the game. 
 Note: This feature only works in an expanded window. 
+<img width="1297" height="627" alt="Screenshot 2025-10-09 202412" src="https://github.com/user-attachments/assets/67c6eaa9-8e11-4cfc-aa5b-d882bb2819bd" />
 
 <img width="1296" height="618" alt="Screenshot 2025-10-09 201357" src="https://github.com/user-attachments/assets/5a4d3819-04b3-471b-bf07-1546bd9c4fd2" />
 
