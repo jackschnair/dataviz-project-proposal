@@ -52,6 +52,24 @@ The other feature I added was a color change for when you mouse over a domain or
 
 <img width="1292" height="635" alt="week 6 chart" src="https://github.com/user-attachments/assets/aef4e350-4d24-45ad-b716-38aa934a01fd" />
 
+## Week 7 
+
+I've made a couple improvements from week 6. 
+First I decided that the green highlighted points were a little jarring and it would be cleaner to just grey out the non-selected points. 
+Now whatever you select stays black and everything else turns grey. The black points are rendered last so they appear in front. 
+The other change I've made is adding tooltips to each point. 
+Now when you hover over a point it displays the name of the game. 
+Note: This feature only works in an expanded window. 
+
+<img width="1296" height="618" alt="Screenshot 2025-10-09 201357" src="https://github.com/user-attachments/assets/5a4d3819-04b3-471b-bf07-1546bd9c4fd2" />
+
+## New Question:
+
+I feel like I've kind of hit the extend of what I want to do with this visualization. 
+For this project, can I explore multiple visualizations instead of expanding on just this one? 
+I think there's a lot of neat stuff to explore with this data but none of it is that in depth enough to justify complex visualizations. 
+Maybe a can be proved wrong here, but I think I would rather do more varied visualizations instead of keep going down this one path.
+
 ## Open Questions
 
 I feel like analyzing the relationship between average rating and other attributes such as complexity is a more interesting question to persue since it's a real life question that would be interesting to research. However, I don't think a simple scatterplot of that nature is an interesting visualization. I'd like to figure out how to make it more interesting. The bar chart comparing category popularity over the decades is a better visualization, but I don't think the data really tells us that much. I'm unsure of which to procede with or if I just want to ask a different question. 
