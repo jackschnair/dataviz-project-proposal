@@ -78,7 +78,7 @@ Logically you can see that the games with more mechanics tend to be higher on th
 
 For color scheme I made sure to include a color blind friendly option that uses a blue and orange color scheme as was suggested by this week's material. 
 
-<img width="1295" height="845" alt="Screenshot 2025-10-22 220435" src="https://github.com/user-attachments/assets/33e7d54b-734d-4b5f-a046-9cca060bd93b" />
+<img width="1295" height="839" alt="Screenshot 2025-10-22 220539" src="https://github.com/user-attachments/assets/1d6e2810-c307-4e4c-86de-d18cb7f0fd22" />
 
 ## Open Questions
 
