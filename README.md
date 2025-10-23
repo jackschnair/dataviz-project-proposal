@@ -66,17 +66,17 @@ Note: This feature only works in an expanded window.
 
 ## Week 9
 
-During week 9 I have made an effor to implement color into my viusal.
-To do this I have added a section to my viusual labeled "Color Mapping" that allows the user to pick an aspect of the data to visualize and the color scheme. 
-The tricky part of my dataset for color mapping is that I am mostly concered with discerning game domains and mechanics by color and many games have mutliple of each. 
-I had to work around this limitation and came up with two solutions. The first is to just have the most popular domain (strategy) as one color and the rest as another. 
-The second is to just take the first listed domain, which makes for a more interesting visual but is less accurate. 
-The most interesting in my opinion is the mechanics count. This uses a gradient to visualize which games have greater or fewer mechanics. 
-Logically you can see that the games with more mechanics tend to be higher on the complexity scale. 
+During week 9 I have made an effort to implement color into my visual.
+To do this I have added a section to my visual labeled "Color Mapping" that allows the user to pick an aspect of the data to visualize and the color scheme.
+The tricky part of my dataset for color mapping is that I am mostly concerned with discerning game domains and mechanics by color and many games have multiple of each.
+I had to work around this limitation and came up with two solutions. The first is to just have the most popular domain (strategy) as one color and the rest as another.
+The second is to just take the first listed domain, which makes for a more interesting visual but is less accurate. The most interesting in my opinion is the mechanics count.
+This uses a gradient to visualize which games have greater or fewer mechanics.
+Logically you can see that the games with more mechanics tend to be higher on the complexity scale.
 
 <img width="1295" height="845" alt="Screenshot 2025-10-22 220435" src="https://github.com/user-attachments/assets/461191b4-ca49-4029-9946-da07ec584797" />
 
-For color scheme I made sure to include a color blind friendly option that uses a blue and orange color scheme as was suggested by this week's material. 
+For the color scheme I made sure to include a color blind friendly option that uses a blue and orange color scheme as was suggested by this week's material. 
 
 <img width="1295" height="839" alt="Screenshot 2025-10-22 220539" src="https://github.com/user-attachments/assets/1d6e2810-c307-4e4c-86de-d18cb7f0fd22" />
 
