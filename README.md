@@ -64,16 +64,30 @@ Note: This feature only works in an expanded window.
 
 <img width="1296" height="618" alt="Screenshot 2025-10-09 201357" src="https://github.com/user-attachments/assets/5a4d3819-04b3-471b-bf07-1546bd9c4fd2" />
 
-## New Question:
+## Week 9
+
+During week 9 I have made an effor to implement color into my viusal.
+To do this I have added a section to my viusual labeled "Color Mapping" that allows the user to pick an aspect of the data to visualize and the color scheme. 
+The tricky part of my dataset for color mapping is that I am mostly concered with discerning game domains and mechanics by color and many games have mutliple of each. 
+I had to work around this limitation and came up with two solutions. The first is to just have the most popular domain (strategy) as one color and the rest as another. 
+The second is to just take the first listed domain, which makes for a more interesting visual but is less accurate. 
+The most interesting in my opinion is the mechanics count. This uses a gradient to visualize which games have greater or fewer mechanics. 
+Logically you can see that the games with more mechanics tend to be higher on the complexity scale. 
+
+<img width="1295" height="845" alt="Screenshot 2025-10-22 220435" src="https://github.com/user-attachments/assets/461191b4-ca49-4029-9946-da07ec584797" />
+
+For color scheme I made sure to include a color blind friendly option that uses a blue and orange color scheme as was suggested by this week's material. 
+
+<img width="1295" height="845" alt="Screenshot 2025-10-22 220435" src="https://github.com/user-attachments/assets/33e7d54b-734d-4b5f-a046-9cca060bd93b" />
+
+## Open Questions
+
+I feel like analyzing the relationship between average rating and other attributes such as complexity is a more interesting question to persue since it's a real life question that would be interesting to research. However, I don't think a simple scatterplot of that nature is an interesting visualization. I'd like to figure out how to make it more interesting. The bar chart comparing category popularity over the decades is a better visualization, but I don't think the data really tells us that much. I'm unsure of which to procede with or if I just want to ask a different question. 
 
 I feel like I've kind of hit the extend of what I want to do with this visualization. 
 For this project, can I explore multiple visualizations instead of expanding on just this one? 
 I think there's a lot of neat stuff to explore with this data but none of it is that in depth enough to justify complex visualizations. 
 Maybe a can be proved wrong here, but I think I would rather do more varied visualizations instead of keep going down this one path.
-
-## Open Questions
-
-I feel like analyzing the relationship between average rating and other attributes such as complexity is a more interesting question to persue since it's a real life question that would be interesting to research. However, I don't think a simple scatterplot of that nature is an interesting visualization. I'd like to figure out how to make it more interesting. The bar chart comparing category popularity over the decades is a better visualization, but I don't think the data really tells us that much. I'm unsure of which to procede with or if I just want to ask a different question. 
 
 ## Milestones
 
@@ -82,6 +96,10 @@ Week 5: Prototype designs
 Week 6: Finalize idea and improve prototype. 
 
 Week 7: Add interactive element to visualization. 
+
+Week 8: Break
+
+Week 8: Color
 
 ...
 
