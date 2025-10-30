@@ -1,6 +1,6 @@
 # Data Visualization Project
 
-Vizhub: https://vizhub.com/jackschnair/b27cea9be6194284861f0e59ea8a75da
+Vizhub: [https://vizhub.com/jackschnair/b27cea9be6194284861f0e59ea8a75da](https://vizhub.com/jackschnair/0e07981d43174e8aad29f5637dd45111)
 
 ## Data
 
@@ -84,13 +84,8 @@ For the color scheme I made sure to include a color blind friendly option that u
 # Week 10
 
 I had already implemented some of the interactivity ideas talked about in this week's videos.
-In week 6 I added capabilty for the user to hover over a domain or mechanic and for the corresponding points to be highlighted. 
-For this week I decided to implement something that was suggested in the discord a while ago. 
-I added dropdown menus for fields in the x and y axes. 
-The user will be able to choose from most numeric fields in the dataset: BGG Rating, BGG Rank, Complexity Averaege, Year Published, and Users Rated. 
-Initially I restricted the x-axis to just BGG rating and rank since they went together and I could compare other fields against them. 
-However, I realized that there is no reason to limit what the vizualization can do so I just added all 5 fields to both axes. 
-I also moved the legend to below the x-axis since some of these scatterplots cover the legend when generated. 
+In week 6 I added capability for the user to hover over a domain or mechanic and for the corresponding points to be highlighted. For this week I decided to implement something that was suggested in the discord a while ago. I added dropdown menus for fields in the x and y axes. The user will be able to choose from most numeric fields in the dataset: BGG Rating, BGG Rank, Complexity Average, Year Published, and Users Rated. Initially I restricted the x-axis to just BGG rating and rank since they went together and I could compare other fields against them. However, I realized that there is no reason to limit what the visualization can do so I just added all 5 fields to both axes. I also moved the legend to below the x-axis since some of these scatterplots cover the legend when generated. 
+
 
 I think the following BGG Rank vs BGG Rating plot is pretty interesting as it shows that there is a hidden element that factors into the rank. 
 If it were based purely on rating, then the scatterplot woudl just trend downwards with no outliers. 
