@@ -80,6 +80,24 @@ For the color scheme I made sure to include a color blind friendly option that u
 
 <img width="1295" height="839" alt="Screenshot 2025-10-22 220539" src="https://github.com/user-attachments/assets/1d6e2810-c307-4e4c-86de-d18cb7f0fd22" />
 
+
+# Week 10
+
+I had already implemented some of the interactivity ideas talked about in this week's videos.
+In week 6 I added capabilty for the user to hover over a domain or mechanic and for the corresponding points to be highlighted. 
+For this week I decided to implement something that was suggested in the discord a while ago. 
+I added dropdown menus for fields in the x and y axes. 
+The user will be able to choose from most numeric fields in the dataset: BGG Rating, BGG Rank, Complexity Averaege, Year Published, and Users Rated. 
+Initially I restricted the x-axis to just BGG rating and rank since they went together and I could compare other fields against them. 
+However, I realized that there is no reason to limit what the vizualization can do so I just added all 5 fields to both axes. 
+I also moved the legend to below the x-axis since some of these scatterplots cover the legend when generated. 
+
+I think the following BGG Rank vs BGG Rating plot is pretty interesting as it shows that there is a hidden element that factors into the rank. 
+If it were based purely on rating, then the scatterplot woudl just trend downwards with no outliers. 
+I think that it must have something to do with the number of ratings that factors into the overall rank so if a few people give a game a 5 it doesn't instantly jump to the top of the ranks. 
+
+<img width="1301" height="773" alt="Screenshot 2025-10-29 211505" src="https://github.com/user-attachments/assets/bee53d30-e639-4b61-b0a0-9c410134fcb9" />
+
 ## Open Questions
 
 I feel like analyzing the relationship between average rating and other attributes such as complexity is a more interesting question to persue since it's a real life question that would be interesting to research. However, I don't think a simple scatterplot of that nature is an interesting visualization. I'd like to figure out how to make it more interesting. The bar chart comparing category popularity over the decades is a better visualization, but I don't think the data really tells us that much. I'm unsure of which to procede with or if I just want to ask a different question. 
@@ -101,6 +119,9 @@ Week 8: Break
 
 Week 8: Color
 
+Week 9: More Color
+
+Week 10: Interactivity
 ...
 
 Week ?: Finish Project. 
