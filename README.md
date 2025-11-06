@@ -1,6 +1,6 @@
 # Data Visualization Project
 
-Vizhub: [https://vizhub.com/jackschnair/b27cea9be6194284861f0e59ea8a75da](https://vizhub.com/jackschnair/0e07981d43174e8aad29f5637dd45111)
+Vizhub: https://vizhub.com/jackschnair/d433efa449fe4977a24f19a81939035e
 
 ## Data
 
@@ -92,6 +92,22 @@ If it were based purely on rating, then the scatterplot woudl just trend downwar
 I think that it must have something to do with the number of ratings that factors into the overall rank so if a few people give a game a 5 it doesn't instantly jump to the top of the ranks. 
 
 <img width="1301" height="773" alt="Screenshot 2025-10-29 211505" src="https://github.com/user-attachments/assets/bee53d30-e639-4b61-b0a0-9c410134fcb9" />
+
+# Week 11
+
+This week I cleaned up the project a little bit and started by changing something that had been bothering me. 
+I kept instinctually assuming the y-axis was the first label and x-axis was the second so I swapped them to be that way since others might feel the same way.
+Additionally I moved the fields section of the sidemenu so that domanain and mechanics filters were together and the dropdowns were together.
+Another minor change was greying out fields in the X or Y axis that have already been chosen in the other. 
+This prevents the user from making weird looking visuals where it's just a line since the x and y data are the same.
+
+I have felt limited by my visual before with it just being a scatterplot, so I decided it was finally time to add an option to change chart type. 
+The sparkline plot works exceptionally well for if you're doing a time based plot like "year published" with y-axis always being count.
+I also added tooltips to each point in the plot for convenience.
+I intend to keep adding chart types so the user can vizualize the data in different ways.
+I think I will also bring in idea of greying out options for certain plot types if they're not applicable. 
+
+<img width="1300" height="599" alt="Screenshot 2025-11-05 233719" src="https://github.com/user-attachments/assets/d2751196-1f70-4cda-a71d-3de05947b34e" />
 
 ## Open Questions
 
