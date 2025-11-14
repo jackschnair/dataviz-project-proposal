@@ -1,6 +1,6 @@
 # Data Visualization Project
 
-Vizhub: https://vizhub.com/jackschnair/d433efa449fe4977a24f19a81939035e
+Vizhub: https://vizhub.com/jackschnair/ca2e047e27344b70b3f3c3329c9733ac
 
 ## Data
 
@@ -112,7 +112,7 @@ Pretty quickly I noticed that not all of my data works well with different kinds
 I also noticed that there are some clear outliers in some of the data that make the plots look a lot worse. 
 I decided the best way to deal with this is to just filter out the outliers so we can have a better visual of the majority of the data. 
 I know that this is not good practice, but I stand by it. 
-For maximum players it is ridiculous to have 200 as an option. 
+For maximum players it is ridiculous to have 100 as an option. 
 
 <img width="1311" height="598" alt="bad_max_players" src="https://github.com/user-attachments/assets/6c41c6a4-7ffb-4e89-9b4f-acef3ec467a6" />
 
@@ -120,7 +120,7 @@ For maximum players it is ridiculous to have 200 as an option.
 
 These changes make my visual a lot cleaner with this added functionality of multiple plot types.
 
-## Open Questions
+## Existing Questions
 
 I feel like analyzing the relationship between average rating and other attributes such as complexity is a more interesting question to persue since it's a real life question that would be interesting to research. However, I don't think a simple scatterplot of that nature is an interesting visualization. I'd like to figure out how to make it more interesting. The bar chart comparing category popularity over the decades is a better visualization, but I don't think the data really tells us that much. I'm unsure of which to procede with or if I just want to ask a different question. 
 
@@ -128,6 +128,11 @@ I feel like I've kind of hit the extend of what I want to do with this visualiza
 For this project, can I explore multiple visualizations instead of expanding on just this one? 
 I think there's a lot of neat stuff to explore with this data but none of it is that in depth enough to justify complex visualizations. 
 Maybe a can be proved wrong here, but I think I would rather do more varied visualizations instead of keep going down this one path.
+
+## Current thoughts
+
+I ended up trying to do multiple kinds of visuals in one to make my dataset more interesting. 
+I think this is a good compromise for doing more visualization with a straight forward dataset.
 
 ## Milestones
 
@@ -144,6 +149,11 @@ Week 8: Color
 Week 9: More Color
 
 Week 10: Interactivity
+
+Week 11: Additional views
+
+Week 12: General improvements
+
 ...
 
 Week ?: Finish Project. 
