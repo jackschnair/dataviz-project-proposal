@@ -101,6 +101,25 @@ I have felt limited by my visual before with it just being a scatterplot, so I d
 
 <img width="1300" height="599" alt="Screenshot 2025-11-05 233719" src="https://github.com/user-attachments/assets/d2751196-1f70-4cda-a71d-3de05947b34e" />
 
+# Week 12
+
+In week 12 I wanted to expand on what I started in week 11 with the alternative kind of plots. 
+On top of sparkline, I added barcharts. 
+Pretty quickly I noticed that not all of my data works well with different kinds of plots so I greyed out certain features when using different kinds of plots.
+
+<img width="1311" height="561" alt="Greyed_out" src="https://github.com/user-attachments/assets/7e0e6dc6-0cbf-491a-b481-814efffb7a7d" />
+
+I also noticed that there are some clear outliers in some of the data that make the plots look a lot worse. 
+I decided the best way to deal with this is to just filter out the outliers so we can have a better visual of the majority of the data. 
+I know that this is not good practice, but I stand by it. 
+For maximum players it is ridiculous to have 200 as an option. 
+
+<img width="1311" height="598" alt="bad_max_players" src="https://github.com/user-attachments/assets/6c41c6a4-7ffb-4e89-9b4f-acef3ec467a6" />
+
+<img width="1307" height="588" alt="good_max_players" src="https://github.com/user-attachments/assets/5be42831-a673-46e7-a9d2-60bd6fcb119e" />
+
+These changes make my visual a lot cleaner with this added functionality of multiple plot types.
+
 ## Open Questions
 
 I feel like analyzing the relationship between average rating and other attributes such as complexity is a more interesting question to persue since it's a real life question that would be interesting to research. However, I don't think a simple scatterplot of that nature is an interesting visualization. I'd like to figure out how to make it more interesting. The bar chart comparing category popularity over the decades is a better visualization, but I don't think the data really tells us that much. I'm unsure of which to procede with or if I just want to ask a different question. 
