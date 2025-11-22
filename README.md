@@ -1,6 +1,6 @@
 # Data Visualization Project
 
-Vizhub: https://vizhub.com/jackschnair/ca2e047e27344b70b3f3c3329c9733ac
+Vizhub: https://vizhub.com/jackschnair/817f2d8f91fa434fa3ce1829da9a39b3
 
 ## Data
 
@@ -120,6 +120,28 @@ For maximum players it is ridiculous to have 100 as an option.
 
 These changes make my visual a lot cleaner with this added functionality of multiple plot types.
 
+# Week 13
+
+This iteration was all about incorporating the feedback I received in discord both from Professor Kelleher and Adam Veilleux. 
+Both provided feedback about how my visualization fits into the regular vizhub screen as opposed to full screen. 
+I was focused on the fullscreen visual and it was a complete oversight that the regular screen was almost unreadable. 
+I fixed the scaling so that the x-axis and legend aren't cut off anymore. The legend is now part of the right scrolling panel.
+
+<img width="960" height="537" alt="bad screen" src="https://github.com/user-attachments/assets/f0a8ed84-4146-4c00-ab45-06ecfc16c452" />
+<img width="789" height="453" alt="Small Screen" src="https://github.com/user-attachments/assets/915b27da-f843-4098-86dd-d04d6039492a" />
+
+Another huge oversight was the lack of a title for any of the charts in my visualization so I've added those. 
+In general, there's just a lot of information on the right panel in the visualization so I wanted to minimize it when possible. 
+For bar and spark charts, the filter mechanics, legend, color scheme, and y-axis selectors aren't needed so I no longer display them when in those charts. 
+Now these charts look a lot cleaner without the irrelevant information.
+
+<img width="790" height="454" alt="Screenshot 2025-11-21 194140" src="https://github.com/user-attachments/assets/f7733b61-a78c-4192-b5dd-fd94b0b7534d" />
+
+The last couple changes I made are displaying the x and y axis values when displaying tooltips and making sure the bars in bar charts don't overlap. 
+Both are simple changes that make the visual better and have no downside. 
+All the changes I made this week were needed before adding anything new. 
+I should have refined the visualization sooner before adding more features.
+
 ## Existing Questions
 
 I feel like analyzing the relationship between average rating and other attributes such as complexity is a more interesting question to persue since it's a real life question that would be interesting to research. However, I don't think a simple scatterplot of that nature is an interesting visualization. I'd like to figure out how to make it more interesting. The bar chart comparing category popularity over the decades is a better visualization, but I don't think the data really tells us that much. I'm unsure of which to procede with or if I just want to ask a different question. 
@@ -154,6 +176,7 @@ Week 11: Additional views
 
 Week 12: General improvements
 
+Week 13: Revisions based on feedback
 ...
 
 Week ?: Finish Project. 
