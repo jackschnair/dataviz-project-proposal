@@ -127,7 +127,9 @@ Both provided feedback about how my visualization fits into the regular vizhub s
 I was focused on the fullscreen visual and it was a complete oversight that the regular screen was almost unreadable. 
 I fixed the scaling so that the x-axis and legend aren't cut off anymore. The legend is now part of the right scrolling panel.
 
-<img width="960" height="537" alt="bad screen" src="https://github.com/user-attachments/assets/f0a8ed84-4146-4c00-ab45-06ecfc16c452" />
+Before: 
+<img width="789" height="453" alt="bad screen" src="https://github.com/user-attachments/assets/f0a8ed84-4146-4c00-ab45-06ecfc16c452" />
+After:
 <img width="789" height="453" alt="Small Screen" src="https://github.com/user-attachments/assets/915b27da-f843-4098-86dd-d04d6039492a" />
 
 Another huge oversight was the lack of a title for any of the charts in my visualization so I've added those. 
