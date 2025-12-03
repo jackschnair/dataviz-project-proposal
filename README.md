@@ -144,19 +144,21 @@ Both are simple changes that make the visual better and have no downside.
 All the changes I made this week were needed before adding anything new. 
 I should have refined the visualization sooner before adding more features.
 
-## Existing Questions
+# Week 15
 
-I feel like analyzing the relationship between average rating and other attributes such as complexity is a more interesting question to persue since it's a real life question that would be interesting to research. However, I don't think a simple scatterplot of that nature is an interesting visualization. I'd like to figure out how to make it more interesting. The bar chart comparing category popularity over the decades is a better visualization, but I don't think the data really tells us that much. I'm unsure of which to procede with or if I just want to ask a different question. 
+This final week is about finishing up the visual so I didn’t want to add any major functionality changes. I instead aimed to tie up any loose ends and add one final feature. Two minor quality of life changes I made are the reset button that resets the color scheme and chart type to the default and the points in the scatterplot enlarging when hovered over. Both of these changes add to the ease of use of this visual without taking anything away. 
 
-I feel like I've kind of hit the extend of what I want to do with this visualization. 
-For this project, can I explore multiple visualizations instead of expanding on just this one? 
-I think there's a lot of neat stuff to explore with this data but none of it is that in depth enough to justify complex visualizations. 
-Maybe a can be proved wrong here, but I think I would rather do more varied visualizations instead of keep going down this one path.
+The major addition I made is the ability to download any given chart as a png file. There is now an “export png” button in the top right of the panel that allows the user to download the current chart as a png. This is done using a canvas element and converting it to a downloadable format. 
 
-## Current thoughts
+Final visual: <br>
+<img width="790" height="453" alt="Screenshot 2025-12-02 185823" src="https://github.com/user-attachments/assets/dae7e459-636c-4d79-aa55-e68ccb9656cd" />
 
-I ended up trying to do multiple kinds of visuals in one to make my dataset more interesting. 
-I think this is a good compromise for doing more visualization with a straight forward dataset.
+Resulting PNG: <br>
+<img width="640" height="500" alt="boardgame-chart-scatter-1764719965713" src="https://github.com/user-attachments/assets/88a4ec37-704d-4d46-b7fd-b41d98e5b730" />
+
+
+## Final Thoughts
+
 
 ## Milestones
 
@@ -179,6 +181,7 @@ Week 11: Additional views
 Week 12: General improvements
 
 Week 13: Revisions based on feedback
-...
 
-Week ?: Finish Project. 
+Week 14: Break
+
+Week 15: Final Project
