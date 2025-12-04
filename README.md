@@ -2,6 +2,8 @@
 
 Vizhub: https://vizhub.com/jackschnair/7e8180efc35c476e8520b48016bfbd57
 
+Video Presentation: https://drive.google.com/file/d/1KZNgUjoAIn9KJDITv3SHZr9dGKpgoSIF/view?usp=sharing
+
 ## Data
 
 The data I propose to visualize for my project is a collection of board games from the BoardGameGeek (BGG) website as of February 2021. BGG is the largest online collection of board game data which consists of data on more than 100,000 total games (ranked and unranked). The voluntary online community contributes to the site with reviews, ratings, images, videos, session reports and live discussion forums on the expanding database of board games. This data set contains all ranked games (~20,000) as of the date of collection from the BGG database. Unranked games are ignored as they have not been rated by enough BGG users (a game should receive at least 30 votes to be eligible for ranking).
