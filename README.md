@@ -41,7 +41,9 @@ Prototype for scatter plot of rank vs complexity:
 
 Prototype for category quantity over the decades: 
 
+<a href="https://vizhub.com/jackschnair/e566a5163d3f446cab3f7851f110bd0f">
 <img width="953" height="535" alt="bar chart board games" src="https://github.com/user-attachments/assets/86edc9d6-582f-48da-82a8-9e86da9b624f" />
+</a>
 
 ## Week 6 
 
@@ -51,7 +53,9 @@ Domains are essentially the type of game like strategy or family and mechanics a
 The user can check each doman or mechanic to toggle the display. Most games have multiple of each, so as one of their domians or mechanics are checked the point will stay. 
 The other feature I added was a color change for when you mouse over a domain or mechanic to make them more distinct for the viewer. 
 
+<a href="https://vizhub.com/jackschnair/01eb7953287d4966920e5a4855cb0b2f">
 <img width="1292" height="635" alt="week 6 chart" src="https://github.com/user-attachments/assets/aef4e350-4d24-45ad-b716-38aa934a01fd" />
+</a>
 
 ## Week 7 
 
@@ -61,10 +65,12 @@ Now whatever you select stays black and everything else turns grey. The black po
 The other change I've made is adding tooltips to each point. 
 Now when you hover over a point it displays the name of the game. 
 Note: This feature only works in an expanded window. 
+<a href="https://vizhub.com/jackschnair/fbb2ef05983d46d79b95745bb5112ebf">
 <img width="1297" height="627" alt="Screenshot 2025-10-09 202412" src="https://github.com/user-attachments/assets/67c6eaa9-8e11-4cfc-aa5b-d882bb2819bd" />
-
+</a>
+<a href="https://vizhub.com/jackschnair/fbb2ef05983d46d79b95745bb5112ebf">
 <img width="1296" height="618" alt="Screenshot 2025-10-09 201357" src="https://github.com/user-attachments/assets/5a4d3819-04b3-471b-bf07-1546bd9c4fd2" />
-
+</a>
 ## Week 9
 
 During week 9 I have made an effort to implement color into my visual.
@@ -75,12 +81,14 @@ The second is to just take the first listed domain, which makes for a more inter
 This uses a gradient to visualize which games have greater or fewer mechanics.
 Logically you can see that the games with more mechanics tend to be higher on the complexity scale.
 
+<a href="https://vizhub.com/jackschnair/b27cea9be6194284861f0e59ea8a75da">
 <img width="1295" height="845" alt="Screenshot 2025-10-22 220435" src="https://github.com/user-attachments/assets/461191b4-ca49-4029-9946-da07ec584797" />
-
+</a>
 For the color scheme I made sure to include a color blind friendly option that uses a blue and orange color scheme as was suggested by this week's material. 
 
+<a href="https://vizhub.com/jackschnair/b27cea9be6194284861f0e59ea8a75da">
 <img width="1295" height="839" alt="Screenshot 2025-10-22 220539" src="https://github.com/user-attachments/assets/1d6e2810-c307-4e4c-86de-d18cb7f0fd22" />
-
+</a>
 
 # Week 10
 
@@ -92,33 +100,37 @@ I think the following BGG Rank vs BGG Rating plot is pretty interesting as it sh
 If it were based purely on rating, then the scatterplot woudl just trend downwards with no outliers. 
 I think that it must have something to do with the number of ratings that factors into the overall rank so if a few people give a game a 5 it doesn't instantly jump to the top of the ranks. 
 
+<a href="https://vizhub.com/jackschnair/0e07981d43174e8aad29f5637dd45111">
 <img width="1301" height="773" alt="Screenshot 2025-10-29 211505" src="https://github.com/user-attachments/assets/bee53d30-e639-4b61-b0a0-9c410134fcb9" />
-
+</a>
 # Week 11
 
 This week I cleaned up the project a little bit and started by changing something that had been bothering me. I kept instinctually assuming the y-axis was the first label and x-axis was the second so I swapped them to be that way since others might feel the same way. Additionally I moved the fields section of the sidemenu so that domain and mechanics filters were together and the dropdowns were together. Another minor change was greying out fields in the X or Y axis that have already been chosen in the other. This prevents the user from making weird looking visuals where it's just a line since the x and y data are the same.
 I have felt limited by my visual before with it just being a scatterplot, so I decided it was finally time to add an option to change the chart type. The sparkline plot works exceptionally well for if you're doing a time based plot like "year published" with y-axis always being counted. I also added tooltips to each point in the plot for convenience. I intend to keep adding chart types so the user can visualize the data in different ways. I think I will also bring in the idea of greying out options for certain plot types if they're not applicable.
 
-
+<a href="https://vizhub.com/jackschnair/d433efa449fe4977a24f19a81939035e">
 <img width="1300" height="599" alt="Screenshot 2025-11-05 233719" src="https://github.com/user-attachments/assets/d2751196-1f70-4cda-a71d-3de05947b34e" />
-
+</a>
 # Week 12
 
 In week 12 I wanted to expand on what I started in week 11 with the alternative kind of plots. 
 On top of sparkline, I added barcharts. 
 Pretty quickly I noticed that not all of my data works well with different kinds of plots so I greyed out certain features when using different kinds of plots.
 
+<a href="https://vizhub.com/jackschnair/ca2e047e27344b70b3f3c3329c9733ac">
 <img width="1311" height="561" alt="Greyed_out" src="https://github.com/user-attachments/assets/7e0e6dc6-0cbf-491a-b481-814efffb7a7d" />
-
+</a>
 I also noticed that there are some clear outliers in some of the data that make the plots look a lot worse. 
 I decided the best way to deal with this is to just filter out the outliers so we can have a better visual of the majority of the data. 
 I know that this is not good practice, but I stand by it. 
 For maximum players it is ridiculous to have 100 as an option. 
 
+<a href="https://vizhub.com/jackschnair/ca2e047e27344b70b3f3c3329c9733ac">
 <img width="1311" height="598" alt="bad_max_players" src="https://github.com/user-attachments/assets/6c41c6a4-7ffb-4e89-9b4f-acef3ec467a6" />
-
+</a>
+<a href="">
 <img width="1307" height="588" alt="good_max_players" src="https://github.com/user-attachments/assets/5be42831-a673-46e7-a9d2-60bd6fcb119e" />
-
+</a>
 These changes make my visual a lot cleaner with this added functionality of multiple plot types.
 
 # Week 13
@@ -129,17 +141,21 @@ I was focused on the fullscreen visual and it was a complete oversight that the 
 I fixed the scaling so that the x-axis and legend aren't cut off anymore. The legend is now part of the right scrolling panel.
 
 Before: <br>
+<a href="https://vizhub.com/jackschnair/817f2d8f91fa434fa3ce1829da9a39b3">
 <img width="789" height="453" alt="bad screen" src="https://github.com/user-attachments/assets/f0a8ed84-4146-4c00-ab45-06ecfc16c452" />
+</a>
 <br>After:<br>
+<a href="https://vizhub.com/jackschnair/817f2d8f91fa434fa3ce1829da9a39b3">
 <img width="789" height="453" alt="Small Screen" src="https://github.com/user-attachments/assets/915b27da-f843-4098-86dd-d04d6039492a" />
-
+</a>
 Another huge oversight was the lack of a title for any of the charts in my visualization so I've added those. 
 In general, there's just a lot of information on the right panel in the visualization so I wanted to minimize it when possible. 
 For bar and spark charts, the filter mechanics, legend, color scheme, and y-axis selectors aren't needed so I no longer display them when in those charts. 
 Now these charts look a lot cleaner without the irrelevant information.
 
+<a href="https://vizhub.com/jackschnair/817f2d8f91fa434fa3ce1829da9a39b3">
 <img width="790" height="454" alt="Screenshot 2025-11-21 194140" src="https://github.com/user-attachments/assets/f7733b61-a78c-4192-b5dd-fd94b0b7534d" />
-
+</a>
 The last couple changes I made are displaying the x and y axis values when displaying tooltips and making sure the bars in bar charts don't overlap. 
 Both are simple changes that make the visual better and have no downside. 
 All the changes I made this week were needed before adding anything new. 
@@ -152,11 +168,14 @@ This final week is about finishing up the visual so I didn’t want to add any m
 The major addition I made is the ability to download any given chart as a png file. There is now an “export png” button in the top right of the panel that allows the user to download the current chart as a png. This is done using a canvas element and converting it to a downloadable format. 
 
 Final visual: <br>
+
+<a href="https://vizhub.com/jackschnair/7e8180efc35c476e8520b48016bfbd57">
 <img width="790" height="453" alt="Screenshot 2025-12-02 185823" src="https://github.com/user-attachments/assets/dae7e459-636c-4d79-aa55-e68ccb9656cd" />
-
+</a>
 Resulting PNG: <br>
+<a href="https://vizhub.com/jackschnair/7e8180efc35c476e8520b48016bfbd57">
 <img width="640" height="500" alt="boardgame-chart-scatter-1764719965713" src="https://github.com/user-attachments/assets/88a4ec37-704d-4d46-b7fd-b41d98e5b730" />
-
+</a>
 
 ## Final Thoughts / Key Takeaways
 
