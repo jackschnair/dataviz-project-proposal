@@ -1,6 +1,6 @@
 # Data Visualization Project
 
-Vizhub: https://vizhub.com/jackschnair/817f2d8f91fa434fa3ce1829da9a39b3
+Vizhub: https://vizhub.com/jackschnair/7e8180efc35c476e8520b48016bfbd57
 
 ## Data
 
