@@ -35,8 +35,9 @@ The sketch on the left is a bar chart that flexibly compares a number of feature
 ## Prototypes
 
 Prototype for scatter plot of rank vs complexity: 
-
-<img width="959" height="535" alt="Scatter Plot Board Games" src="https://github.com/user-attachments/assets/ff1d86a4-c73a-4805-8f6e-01530559acfe" />
+<a href="https://vizhub.com/jackschnair/bfd7fcb75d0e493caa9d7c50fa7b3be3">
+  <img width="959" height="535" alt="Scatter Plot Board Games" src="https://github.com/user-attachments/assets/ff1d86a4-c73a-4805-8f6e-01530559acfe" />
+</a>
 
 Prototype for category quantity over the decades: 
 
