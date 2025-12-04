@@ -157,8 +157,11 @@ Resulting PNG: <br>
 <img width="640" height="500" alt="boardgame-chart-scatter-1764719965713" src="https://github.com/user-attachments/assets/88a4ec37-704d-4d46-b7fd-b41d98e5b730" />
 
 
-## Final Thoughts
+## Final Thoughts / Key Takeaways
 
+- Found there is a low correlation between complexity of games and how they are rated
+- There is a lot you can do with a visualization regardless of the size of a dataset
+- More features are not always additive to a vizualization (simple can be better)
 
 ## Milestones
 
